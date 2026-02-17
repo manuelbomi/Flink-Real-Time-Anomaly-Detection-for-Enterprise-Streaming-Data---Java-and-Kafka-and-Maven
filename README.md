@@ -195,3 +195,30 @@ Edit pom.xml to include:
 </dependencies>
 
 ```
+
+---
+
+### Step 4: Build the Project
+
+```python
+mvn clean package
+```
+
+The JAR will appear in:
+
+```python
+target/flink-anomaly-1.0-SNAPSHOT.jar
+```
+
+---
+
+### Step 5: Submit the Job to Flink
+
+From your Flink directory:
+
+```python
+cp ~/flink-anomaly/target/flink-anomaly-1.0-SNAPSHOT.jar ~/flink-1.19.1/
+cd ~/flink-1.19.1
+./bin/flink run flink-anomaly-1.0-SNAPSHOT.jar
+
+```
