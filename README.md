@@ -117,6 +117,9 @@ cd kafka_2.13-3.5.1
 bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/f2bc01a5-9f69-41c8-9ba4-399ed122ba3d" />
+
+
 #### Start Kafka broker:
 
 ```python
@@ -135,7 +138,13 @@ bin/kafka-topics.sh --create --topic sensor-data_2 --bootstrap-server localhost:
 bin/kafka-console-producer.sh --topic sensor-data_2 --bootstrap-server localhost:9092
 ```
 
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/73d651dc-3453-4819-8ead-6ddb240af947" />
+
 ---
+
+#### Start a Kafka Consumer
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/61b6fc7b-b6c1-46d3-accb-b87acbbabf93" />
 
 ## Step 3: Create a Maven Project
 
@@ -217,6 +226,7 @@ Edit pom.xml to include:
 mvn clean package
 ```
 <ins> mvn clean package </ins>
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4987b1e5-a8c4-452d-9fba-6244c211b498" />
 
 The JAR will appear in:
@@ -242,14 +252,18 @@ cd ~/flink-1.19.1
 
 <img width="1271" height="631" alt="Image" src="https://github.com/user-attachments/assets/2c8f2bb6-fdb5-4936-b5ec-43da45772858" />
 
+---
 
 
 
-Monitor anomalies in real time:
+
+#### Monitor anomalies in real time:
 
 ```python
 tail -f log/flink-*-taskexecutor-0-*.out
 ```
+
+<img width="1276" height="193" alt="Image" src="https://github.com/user-attachments/assets/766bbd50-c027-4fd1-a5a5-f9527c12d0c8" />
 
 ---
 
