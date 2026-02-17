@@ -336,5 +336,8 @@ Github:  https://github.com/manuelbomi
 
   https://img.shields.io/endpoint?url=%20%20%20https%3A%2F%2Fhits.dwyl.com%2Fmanuelbomi%2Fhttps%3A%2F%2Fgithubcom%2Fmanuelbomi%2FFlink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java.json
 
+  ![Endpoint Badge](https://img.shields.io/endpoint?url=%20%20%20https%3A%2F%2Fhits.dwyl.com%2Fmanuelbomi%2Fhttps%3A%2F%2Fgithubcom%2Fmanuelbomi%2FFlink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java.json)
+
+
 
 
