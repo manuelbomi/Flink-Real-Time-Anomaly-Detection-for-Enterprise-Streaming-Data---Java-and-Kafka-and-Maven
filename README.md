@@ -148,6 +148,17 @@ mvn archetype:generate \
   -DinteractiveMode=false
 cd flink-anomaly
 ```
+
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/1d31bf07-e7a5-4690-846c-89175a4bd10b" />
+
+<img width="1151" height="503" alt="Image" src="https://github.com/user-attachments/assets/c1adca8d-ac79-4e3e-92f3-62d6ac42d4a7" />
+
+<img width="1253" height="420" alt="Image" src="https://github.com/user-attachments/assets/16dfa402-2151-4efd-80f2-c6586fc8ec71" />
+
+<img width="1205" height="268" alt="Image" src="https://github.com/user-attachments/assets/9fb298a8-51df-4edc-aa2e-1d836b592a56" />
+
+<img width="1181" height="116" alt="Image" src="https://github.com/user-attachments/assets/692ddc22-befb-4ec2-bee4-338f500dccec" />
+
 ---
 
 ### Step 3a: Add Java Source
