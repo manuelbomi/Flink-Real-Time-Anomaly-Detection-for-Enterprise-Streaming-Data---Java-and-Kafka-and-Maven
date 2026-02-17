@@ -149,15 +149,17 @@ mvn archetype:generate \
 cd flink-anomaly
 ```
 
-<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/1d31bf07-e7a5-4690-846c-89175a4bd10b" />
+<ins> Install Maven </ins>
 
 <img width="1151" height="503" alt="Image" src="https://github.com/user-attachments/assets/c1adca8d-ac79-4e3e-92f3-62d6ac42d4a7" />
 
 <img width="1253" height="420" alt="Image" src="https://github.com/user-attachments/assets/16dfa402-2151-4efd-80f2-c6586fc8ec71" />
 
+<ins> Create Maven Project</ins>
+
 <img width="1205" height="268" alt="Image" src="https://github.com/user-attachments/assets/9fb298a8-51df-4edc-aa2e-1d836b592a56" />
 
-<img width="1181" height="116" alt="Image" src="https://github.com/user-attachments/assets/692ddc22-befb-4ec2-bee4-338f500dccec" />
+
 
 ---
 
@@ -214,6 +216,8 @@ Edit pom.xml to include:
 ```python
 mvn clean package
 ```
+<ins> mvn clean package </ins>
+<img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/4987b1e5-a8c4-452d-9fba-6244c211b498" />
 
 The JAR will appear in:
 
@@ -233,6 +237,13 @@ cd ~/flink-1.19.1
 ./bin/flink run flink-anomaly-1.0-SNAPSHOT.jar
 
 ```
+
+<ins> Job Running on Flink as obserced via Flink UI </ins>
+
+<img width="1271" height="631" alt="Image" src="https://github.com/user-attachments/assets/2c8f2bb6-fdb5-4936-b5ec-43da45772858" />
+
+
+
 
 Monitor anomalies in real time:
 
