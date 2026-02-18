@@ -22,7 +22,7 @@ This versatility is crucial in enterprise applications where data may originate 
 Unlike Spark, Flink provides true stream-first processing (event-by-event) rather than micro-batching, which makes it ideal for low-latency real-time applications like anomaly detection.
 
 
-This project demonstrates a real-time anomaly detection job that:
+#### This project demonstrates a real-time anomaly detection job that:
 
 - Reads sensor data from a Kafka topic
 
@@ -31,7 +31,7 @@ This project demonstrates a real-time anomaly detection job that:
 - Flags anomalies where sensor readings deviate significantly from the window average
 - 
 
-The project is implemented in Java, packaged as a Maven JAR, and submitted to Flink. Running in Java provides:
+#### The project is implemented in Java, packaged as a Maven JAR, and submitted to Flink. Running in Java provides:
 
 
 - Lower latency and overhead than PyFlink
