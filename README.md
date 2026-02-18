@@ -1,4 +1,4 @@
-# Flink Real-Time Anomaly Detection for Enterprise Streaming Data (Java + Kafka + Maven)
+# Flink Real-Time Anomaly Detection for Enterprise Streaming Data (Flink + Java + Kafka + Maven)
 
 ## Overview
 
