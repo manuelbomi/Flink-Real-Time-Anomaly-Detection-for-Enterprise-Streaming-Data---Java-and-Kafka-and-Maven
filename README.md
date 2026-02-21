@@ -310,6 +310,9 @@ This project can be extended for:
 ---
 
 ### Thank you for reading
+
+#### Please consider giving a star if you find the repo useful. Thank you.
+
 ---
 
 ### **AUTHOR'S BACKGROUND**
